@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Gastreet Font';
+    src:url('../fonts/GastreetSans/GastreetFont.eot');
+    src:url('../fonts/GastreetSans/GastreetFont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GastreetSans/GastreetFont.woff2') format('woff2'),
+        url('../fonts/GastreetSans/GastreetFont.woff') format('woff'),
+        url('../fonts/GastreetSans/GastreetFont.ttf') format('truetype'),
+        url('../fonts/GastreetSans/GastreetFont.svg#GastreetFont') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'Gastreet Sans';
+    src:url('../fonts/GastreetSans/GastreetSans-Regular.eot');
+    src:url('../fonts/GastreetSans/GastreetSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GastreetSans/GastreetSans-Regular.woff2') format('woff2'),
+        url('../fonts/GastreetSans/GastreetSans-Regular.woff') format('woff'),
+        url('../fonts/GastreetSans/GastreetSans-Regular.ttf') format('truetype'),
+        url('../fonts/GastreetSans/GastreetSans-Regular.svg#GastreetSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'Gastreet Sans';
+    src:url('../fonts/GastreetSans/GastreetSans-Bold.eot');
+    src:url('../fonts/GastreetSans/GastreetSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GastreetSans/GastreetSans-Bold.woff2') format('woff2'),
+        url('../fonts/GastreetSans/GastreetSans-Bold.woff') format('woff'),
+        url('../fonts/GastreetSans/GastreetSans-Bold.ttf') format('truetype'),
+        url('../fonts/GastreetSans/GastreetSans-Bold.svg#GastreetSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;}
+
+* {
+    margin: 0;
+    padding: 0;}
+html {
+    font-size: 16px;}
+body {
+    color: #383838;
+    font-family: 'Gastreet Sans', sans-serif;
+    font-weight: normal;
+    background-color: #fff;}
+.main h1 {
+    font-family: 'Gastreet font', sans-serif;
+    font-size: 3rem;
+    margin: 4rem 0;}
+.main p, .content p{
+    font-family: 'Gastreet Sans', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 50px;}
+.feedback {
+    margin-bottom: 100px;}
+.feedback .feedback-body {
+    margin: 3rem auto;
+    background-color: #fafafa;}
+.feedback .feedback-body ::placeholder{
+    color: #a3cbe9;}
+.feedback .feedback-body .input-end {
+    margin-bottom: 50px;}
+.feedback .feedback-body form {
+    width: 70%;
+    margin: 0 auto;}
+.feedback .feedback-body input {
+    border: none;}
+.feedback .feedback-body h3 {
+    font-family: 'Gastreet font', sans-serif;
+    font-size: 24px;
+    margin-top: 50px;}
+.feedback .feedback-body p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-bottom: 3.125rem;}
+.feedback .feedback-body .btn-send {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 35px 0 40px 0;
+    border: none;
+    border-radius: 30px;
+    background-color: #008dd2;
+    color: #fff;
+    padding: 10px 20px;}
+
+.carousel-partner-page .item .image-carousel h4 {
+    font-size: 1.500rem;
+    font-weight: 600;}
+.main-image-block h4 {
+    text-align: left;
+    font-size: 2.250rem;
+    font-weight: 600;
+    color: #24264c;}
+.main-image-block h4 span {
+    color: #e51a4b;}
+.main-image-block p {
+    font-size: 1.125rem;}
+.carousel-partner-page .owl-item {
+    opacity: 0.25;
+    transition: opacity .3s linear;}
+.carousel-partner-page .owl-item:hover {
+    opacity: 1;}
+.carousel-partner-page .item h4 {
+    color: #e51a4b;}
+.carousel-partner-page .item a {
+    text-decoration: none;}
+.owl-carousel .owl-stage-outer {
+    margin-top: 3.688rem;}
+.carousel-partner-page .owl-dots {
+    margin-top: 4rem !important;}
+.text-under, .text-above {
+    font-family: 'Gastreet font', sans-serif;
+    font-size: 5rem;
+    color: rgba(56, 56, 56, .1);
+    text-align: center;}
+.main-image-block p {
+    margin-top: 3rem;}
+@media (max-width: 575px) {
+    html {
+        font-size: 12px;}
+    .main h1 {
+        margin: 100px 10px 50px 10px;}
+    .main p, .content p{
+        font-family: 'Gastreet Sans', sans-serif;
+        font-weight: normal;
+        margin: 50px 10px;}
+    .feedback .feedback-body form {
+        width: 90%;
+        margin: 0 auto;}
+    .carousel-partner-page p {
+        margin-top: 2rem;
+        display: block;}
+    .text-under, .text-above {
+        font-size: 3rem;}
+    .carousel-partner-page .owl-item {
+        opacity: 1;}
+}
+
+/* Small */
+@media (min-width: 576px) and (max-width: 767px) {
+    .main h1 {
+        font-family: 'Gastreet font', sans-serif;
+        font-size: 30px;
+        margin: 100px 10px 50px 10px;}
+    .main p, .content p{
+        font-family: 'Gastreet Sans', sans-serif;
+        font-weight: normal;
+        font-size: 12px;
+        margin: 20px 20px;
+        padding: 0;
+        width: 100%;}
+    .feedback .feedback-body form {
+        width: 90%;
+        margin: 0 auto;}
+    .carousel-partner-page p {
+        margin-top: 2rem;
+        display: block;}
+}
+/* Medium */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/* Large */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/* Extra large */
+@media (min-width: 1200px) {
+    
+}
